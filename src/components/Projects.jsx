@@ -1,6 +1,6 @@
 import React from 'react'
-import NetflixClone from '../assets/NetflixLandingPageClone.jpg'
-import Sample1 from '../assets/sample1.jpg'
+import NetflixClone from '../assets/netflix-landing-page-clone.png'
+import EcommerceWebsite from '../assets/ecommerce-project.png'
 import Sample2 from '../assets/sample2.jpg'
 import Sample3 from '../assets/sample3.jpg'
 
@@ -11,15 +11,17 @@ const Projects = () => {
         {
             id: 1,
             src: NetflixClone,
-            demoUrl: 'https://google.com',
-            codeUrl: 'https://www.youtube.com'
+            demoUrl: 'https://christianrafols17.github.io/Projects/',
+            codeUrl: 'https://github.com/christianrafols17/Projects',
+            description: 'A Netflix Landing Page Clone created with Vanilla HTML, CSS, and JavaScript'
 
         },
         {
             id: 2,
-            src: Sample1,
-            demoUrl: 'https://google.com',
-            codeUrl: 'https://www.w3schools.com'
+            src: EcommerceWebsite,
+            demoUrl: 'https://christianrafols17.github.io/ecommerce-website-project/',
+            codeUrl: 'https://github.com/christianrafols17/ecommerce-website-project',
+            description: 'An E-commerce Website for buying Donuts!, created with ReactJS and TailwindCSS using Vite'
         },
         {
             id: 3,
@@ -47,12 +49,13 @@ const Projects = () => {
                     <p className='py-6'>Check out some of my work right here</p>
                 </div>
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-8 py-2 sm:px-0'>
-                    {projects.map(({ id, src, demoUrl, codeUrl }) => (
+                    {projects.map(({ id, src, demoUrl, codeUrl, description }) => (
                         <div key={ id } className='flex flex-col shadow-md shadow-gray-600 rounded-lg'>
-                            <img src={src} alt="netflix-landing-page-clone" className='w-full h-full object-cover rounded-md duration-200 hover:scale-105'></img>
+                            <img src={src} alt="Project" className='w-full h-2/3 object-cover rounded-md duration-200 hover:scale-105'></img>
+                            <p className='flex h-1/4 items-center justify-center pt-1 text-center text-gray-500 text-sm px-1'> {description} </p>
                             <div className='flex items-center justify-center '>
-                                <button onClick={() => openUrl(demoUrl)} className=' w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</button>
-                                <button onClick={() => openUrl(codeUrl)} className=' w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button>
+                                <button onClick={() => openUrl(demoUrl)} className=' w-1/2 h-1/5 px-6 m-6 duration-200 hover:scale-105'>Demo</button>
+                                <button onClick={() => openUrl(codeUrl)} className=' w-1/2 h-1/5 px-6 m-6 duration-200 hover:scale-105'>Code</button>
                             </div>
                         </div>
                     ))}
