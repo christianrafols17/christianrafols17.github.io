@@ -12,7 +12,7 @@ const SocialLinks = () => {
                     LinkedIn <FaLinkedin size={30} /> 
                 </>
             ),
-            href: 'https://google.com',
+            href: 'https://www.linkedin.com/in/christian-rafols-019378288/',
             style: 'rounded-tr-md'
         },
         {
@@ -22,7 +22,7 @@ const SocialLinks = () => {
                     GitHub <FaGithub size={30} /> 
                 </>
             ),
-            href: 'https://google.com',
+            href: 'https://github.com/christianrafols17',
         },
         {
             id: 3,
