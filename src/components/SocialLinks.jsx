@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
-import { HiOutlineMail } from 'react-icons/hi'
+import { HiOutlineMail, HiOutlineDocumentText } from 'react-icons/hi'
 
 const SocialLinks = () => {
 
@@ -32,6 +32,16 @@ const SocialLinks = () => {
                 </>
             ),
             href: 'mailto:christianrafols367@gmail.com',
+        },
+        {
+            id: 4,
+            child: (
+                <> 
+                    Resume <HiOutlineDocumentText size={30} /> 
+                </>
+            ),
+            href: '/Christian Rafols - Resume.pdf',
+            download: true,
             style: 'rounded-br-md'
         }
     ]

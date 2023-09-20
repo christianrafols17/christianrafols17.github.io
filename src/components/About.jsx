@@ -9,12 +9,12 @@ const About = () => {
                     About
                 </p>
             </div>
-            <p className=' text-sm pt-4 md:text-xl'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, omnis nostrum nisi ipsum ipsam illum magnam quas eos. Ullam, vero? Velit inventore soluta minima eaque magni dolorum totam qui fugit rem. Quod enim, dicta nihil porro repellat saepe atque? Placeat, ratione vero perspiciatis repudiandae iusto reiciendis neque provident maiores dolores.
+            <p className=' text-sm pt-4 md:text-xl text-justify'>
+                Hello, I'm Christian John Paul Rafols, a tech enthusiast who's been immersed in technology since high school. I proudly hold a Bachelor of Science in Information Technology and aspire to specialize as a front-end developer. My skill set includes proficiency in HTML, CSS, JavaScript, and frameworks like React, Tailwind, and Angular. Additionally, I have a solid foundation in back-end technologies, including SQL, PHP, and Python.
             </p>
             <br />
-            <p className=' text-sm pt-4 md:text-xl'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, omnis nostrum nisi ipsum ipsam illum magnam quas eos. Ullam, vero? Velit inventore soluta minima eaque magni dolorum totam qui fugit rem. Quod enim, dicta nihil porro repellat saepe atque? Placeat, ratione vero perspiciatis repudiandae iusto reiciendis neque provident maiores dolores.
+            <p className=' text-sm pt-4 md:text-xl text-justify'>
+                My passion lies in crafting engaging web experiences that blend creativity with functionality. I believe in the transformative power of technology to make a positive impact. Let's explore the endless possibilities of the digital world together.
             </p>
         </div>
     </div>

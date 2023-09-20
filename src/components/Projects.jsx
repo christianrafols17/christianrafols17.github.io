@@ -1,8 +1,8 @@
 import React from 'react'
 import NetflixClone from '../assets/netflix-landing-page-clone.png'
 import EcommerceWebsite from '../assets/ecommerce-project.png'
-import Sample2 from '../assets/sample2.jpg'
-import Sample3 from '../assets/sample3.jpg'
+import Placeholder from '../assets/Placeholder.png'
+
 
 
 
@@ -25,15 +25,17 @@ const Projects = () => {
         },
         {
             id: 3,
-            src: Sample2,
-            demoUrl: 'https://google.com',
-            codeUrl: 'https://www.youtube.com'
+            src: Placeholder,
+            demoUrl: '#',
+            codeUrl: '#',
+            description: 'Placeholder'
         },
         {
             id: 4,
-            src: Sample3,
-            demoUrl: 'https://google.com',
-            codeUrl: 'https://www.youtube.com'
+            src: Placeholder,
+            demoUrl: '#',
+            codeUrl: '#',
+            description: 'Placeholder'
         },
     ]
 
