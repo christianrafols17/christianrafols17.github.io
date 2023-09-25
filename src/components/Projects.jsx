@@ -4,8 +4,6 @@ import EcommerceWebsite from '../assets/ecommerce-project.png'
 import Placeholder from '../assets/Placeholder.png'
 
 
-
-
 const Projects = () => {
     const projects = [
         {
@@ -26,9 +24,9 @@ const Projects = () => {
         {
             id: 3,
             src: Placeholder,
-            demoUrl: '#',
-            codeUrl: '#',
-            description: 'Placeholder'
+            demoUrl: 'https://christianrafols17.github.io/to-do-app/',
+            codeUrl: 'https://github.com/christianrafols17/to-do-app',
+            description: 'A simple To-do App made with Angular.'
         },
         {
             id: 4,

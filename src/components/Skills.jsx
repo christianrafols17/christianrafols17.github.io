@@ -5,6 +5,7 @@ import javascript from '../assets/javascript.png'
 import php from '../assets/php.png'
 import sql from '../assets/sql.png'
 import python from '../assets/python.png'
+import typescript from '../assets/typescript.png'
 
 import react from '../assets/react.png'
 import angular from '../assets/angular.png'
@@ -52,6 +53,12 @@ const Skills = () => {
             src: python,
             title: 'Python',
             style: 'shadow-yellow-400'
+        },
+        {
+            id: 7,
+            src: typescript,
+            title: 'TypeScript',
+            style: 'shadow-blue-500'
         }
     ]
 
