@@ -9,7 +9,7 @@ const Projects = () => {
         {
             id: 1,
             src: NetflixClone,
-            demoUrl: 'https://christianrafols17.github.io/Projects/',
+            demoUrl: 'https://christianrafols17.github.io/first-project/',
             codeUrl: 'https://github.com/christianrafols17/Projects',
             description: 'A Netflix Landing Page Clone created with Vanilla HTML, CSS, and JavaScript'
 
