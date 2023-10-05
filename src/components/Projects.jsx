@@ -1,6 +1,7 @@
 import React from 'react'
 import NetflixClone from '../assets/netflix-landing-page-clone.png'
 import EcommerceWebsite from '../assets/ecommerce-project.png'
+import TodoApp from '../assets/todo-app.png'
 import Placeholder from '../assets/Placeholder.png'
 
 
@@ -23,7 +24,7 @@ const Projects = () => {
         },
         {
             id: 3,
-            src: Placeholder,
+            src: TodoApp,
             demoUrl: 'https://christianrafols17.github.io/to-do-app/',
             codeUrl: 'https://github.com/christianrafols17/to-do-app',
             description: 'A simple To-do App made with Angular.'
@@ -45,7 +46,7 @@ const Projects = () => {
         <div name="Projects" className='bg-gradient-to-b from-black to-gray-900 w-full text-white md:h-screen'>
             <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
                 <div className='pb-8'>
-                    <p className='text-4xl font-bold inline border-b-4 p-2 border-gray-500'>Portfolio</p>
+                    <p className='text-4xl font-bold inline border-b-4 p-2 border-gray-500'>Projects</p>
                     <p className='py-6'>Check out some of my work right here</p>
                 </div>
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-8 py-2 sm:px-0'>
