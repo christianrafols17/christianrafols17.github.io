@@ -2,7 +2,7 @@ import React from 'react'
 import NetflixClone from '../assets/netflix-landing-page-clone.png'
 import EcommerceWebsite from '../assets/ecommerce-project.png'
 import TodoApp from '../assets/todo-app.png'
-import Placeholder from '../assets/Placeholder.png'
+import RecipeBook from '../assets/recipe-book-project.jpg'
 
 
 const Projects = () => {
@@ -27,14 +27,14 @@ const Projects = () => {
             src: TodoApp,
             demoUrl: 'https://christianrafols17.github.io/to-do-app/',
             codeUrl: 'https://github.com/christianrafols17/to-do-app',
-            description: 'A simple To-do App made with Angular.'
+            description: 'A simple To-do App made with Angular styled with TailwindCSS.'
         },
         {
             id: 4,
-            src: Placeholder,
-            demoUrl: '#',
-            codeUrl: '#',
-            description: 'Placeholder'
+            src: RecipeBook,
+            demoUrl: 'https://christianrafols17.github.io/recipe-book/',
+            codeUrl: 'https://github.com/christianrafols17/recipe-book',
+            description: 'A Recipe Book App made with ReactJS and TailwindCSS using Vite (Work in Progress)'
         },
     ]
 
@@ -51,10 +51,10 @@ const Projects = () => {
                 </div>
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-8 py-2 sm:px-0'>
                     {projects.map(({ id, src, demoUrl, codeUrl, description }) => (
-                        <div key={ id } className='flex flex-col shadow-md shadow-gray-600 rounded-lg'>
-                            <img src={src} alt="Project" className='w-full h-2/3 object-cover rounded-md duration-200 hover:scale-105'></img>
-                            <p className='flex h-1/4 items-center justify-center pt-1 text-center text-gray-500 text-sm px-1'> {description} </p>
-                            <div className='flex items-center justify-center '>
+                        <div key={ id } className='flex flex-col shadow-md shadow-gray-600 rounded-lg h-[280px]'>
+                            <img src={src} alt="Project" className='w-full h-2/4 object-cover rounded-md duration-200 hover:scale-105'></img>
+                            <p className='flex h-1/4 justify-center pt-1 text-center text-gray-500 text-sm px-1'> {description} </p>
+                            <div className='flex items-center justify-center h-1/4'>
                                 <button onClick={() => openUrl(demoUrl)} className=' w-1/2 h-1/5 px-6 m-6 duration-200 hover:scale-105'>Demo</button>
                                 <button onClick={() => openUrl(codeUrl)} className=' w-1/2 h-1/5 px-6 m-6 duration-200 hover:scale-105'>Code</button>
                             </div>
