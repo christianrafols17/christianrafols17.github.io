@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.cee84104.css",
-    "main.js": "/static/js/main.1893f7a0.js",
+    "main.css": "/static/css/main.60489a67.css",
+    "main.js": "/static/js/main.40bd9e49.js",
     "static/media/netflix-landing-page-clone.png": "/static/media/netflix-landing-page-clone.c2be99f21db688c74288.png",
     "static/media/HeroImage.png": "/static/media/HeroImage.a86d1bb7a926782f46bc.png",
     "static/media/ecommerce-project.png": "/static/media/ecommerce-project.b30be5bae6258189d246.png",
     "static/media/react.png": "/static/media/react.81ed438b18e24116794d.png",
     "static/media/php.png": "/static/media/php.502c1a901665a0453b5c.png",
     "static/media/todo-app.png": "/static/media/todo-app.dfae1499293a0eb890f3.png",
+    "static/media/recipe-book-project.jpg": "/static/media/recipe-book-project.50413f2ff5fa3e3032d2.jpg",
     "static/media/sql.png": "/static/media/sql.1881f32ef4e0ce53321d.png",
     "static/media/angular.png": "/static/media/angular.2a94d7a4ed5d0938f132.png",
     "static/media/javascript.png": "/static/media/javascript.5648ae0aeb0182cbd857.png",
@@ -18,11 +19,11 @@
     "static/media/python.png": "/static/media/python.7a9da81b5ea6a4550127.png",
     "static/media/bootstrap.png": "/static/media/bootstrap.9665c440214bdf00146d.png",
     "index.html": "/index.html",
-    "main.cee84104.css.map": "/static/css/main.cee84104.css.map",
-    "main.1893f7a0.js.map": "/static/js/main.1893f7a0.js.map"
+    "main.60489a67.css.map": "/static/css/main.60489a67.css.map",
+    "main.40bd9e49.js.map": "/static/js/main.40bd9e49.js.map"
   },
   "entrypoints": [
-    "static/css/main.cee84104.css",
-    "static/js/main.1893f7a0.js"
+    "static/css/main.60489a67.css",
+    "static/js/main.40bd9e49.js"
   ]
 }
