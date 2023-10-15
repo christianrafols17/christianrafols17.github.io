@@ -34,7 +34,7 @@ const Projects = () => {
             src: RecipeBook,
             demoUrl: 'https://christianrafols17.github.io/recipe-book/',
             codeUrl: 'https://github.com/christianrafols17/recipe-book',
-            description: 'A Recipe Book App made with ReactJS and TailwindCSS using Vite (Work in Progress)'
+            description: 'A Recipe Book App made with ReactJS and TailwindCSS utilizing TheMealDB API'
         },
     ]
 
