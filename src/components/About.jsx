@@ -10,7 +10,7 @@ const About = () => {
                 </p>
             </div>
             <p className=' text-sm pt-4 md:text-xl text-justify'>
-                Hello, I'm Christian John Paul Rafols, a tech enthusiast who's been immersed in technology since high school. I proudly hold a Bachelor of Science in Information Technology and aspire to specialize as a front-end developer. My skill set includes proficiency in HTML, CSS, JavaScript, and frameworks like React, Tailwind, and Angular. Additionally, I have a solid foundation in back-end technologies, including SQL, PHP, and Python.
+                Hello, I'm Christian John Paul Rafols, a tech enthusiast who's been immersed in technology since high school. I proudly hold a Bachelor of Science in Information Technology and aspire to specialize as a web developer. My skill set includes proficiency in HTML5, CSS3, JavaScript, and frameworks like React, Tailwind, and Angular. Additionally, I have a solid foundation in back-end technologies, including SQL, PHP, Pythona and frameworks like Laravel.
             </p>
             <br />
             <p className=' text-sm pt-4 md:text-xl text-justify'>

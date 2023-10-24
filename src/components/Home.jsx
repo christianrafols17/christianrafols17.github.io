@@ -12,11 +12,11 @@ const Home = () => {
                     Hi, I'm Christian Rafols
                 </h2>
                 <p className='text-gray-500 py-4 max-w-md'>
-                    Creative and Technical Front-end Web Developer
+                    Creative and Technical Web Developer
                 </p>
                 <div>
                     <Link to="Projects" smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-blue-400 to-blue-800 cursor-pointer'>
-                        Portfolio
+                        Projects
                         <span className='group-hover:rotate-90 duration-300 ml-2'>
                             <BsArrowRightSquare />
                         </span>
